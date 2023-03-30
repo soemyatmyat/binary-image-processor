@@ -1,5 +1,7 @@
 # Binary Image Processor
 
+Available as .py or .ipynb at https://colab.research.google.com/drive/1Dr8m6A9ja4Kmu9GLgSO9HDGKvNEIk7dF
+
 ## 1. Introduction 
 Binary Image Processor program is written in pure python without using any external libraries except for NumPy and MatPlotLib for array manipulation and display of the image. This program allows various techniques of image processing to the input image. At present, the program only accepts grey-scaled image, that is, input file must end with PGM extension. 
 
@@ -8,9 +10,9 @@ Readme supplements the binaryImageProcessor.py as a manual. This manual only hig
 ## 1.1 How to run the program
 
 Pre-requisite: 
-•	Python Environment (Install Python if not already available in your computer: https://www.python.org/), 
-•	NumPy and 
-•	Matplotlib libraries. 
+1. Python Environment (Install Python if not already available in your computer: https://www.python.org/), 
+2. NumPy and 
+3. Matplotlib libraries. 
 
 How-to-run:
 1.	Download binaryImageProcessor.py 
