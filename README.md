@@ -23,20 +23,27 @@ Note: At present, program only processes 1 image at one time.
 ## 1.2  Simple Interface 
 This is a scripting program. For simplicity sake, I do not convert our source code into an executable file. When run on the terminal, Program will introduce itself and ask the user to provide the file directory path of the image (recommended to keep the images in the same directory). Program only accepts PGM format file. Any other files are rejected. 
  
+![Binary Image Processor Interface](https://github.com/soemyatmyat/binaryImageProcessor/blob/main/interface.png)
+ 
 In the above interface, the user is asked to input the file name along with the ‘.pgm’ format used for the assignment. The user also has the liberty to provide the path to the image file.
 
 ### 1.2.1 Illustration for image input
  
+![Image Input](https://github.com/soemyatmyat/binaryImageProcessor/blob/main/ImageInput.png)
+![Peppers.png](https://github.com/soemyatmyat/binaryImageProcessor/blob/main/peppers.png)
  
 
 ### 1.2.2 Illustration for Image Processing Operations
 Next, program displays a list of image processing operations, they are grouped by their category: Pre-processing and Edge Detection. User must enter the corresponding number to apply the operation to the input image. 
+ 
+![Image Processor Operations](https://github.com/soemyatmyat/binaryImageProcessor/blob/main/imageprocessorOperations.png) 
  
 After choosing an option, program will perform the selected image processing technique to the image. Operation is not reversible and after each operation, the resulting image is display to the user. User has an option to continue apply the next operations or choose to quit. Resulting image is stored in the memory and a copy of resulting image is also saved to the same directory where the input image exists. 
 
 User also has an option to load a new image, in which case, the resulting image in memory will be cleared and user will be starting with a fresh image. 
 
 Illustration for Linear Stretching and Compression
+![Linear Compress Illlustrate.png](https://github.com/soemyatmyat/binaryImageProcessor/blob/main/linearCompress.png)
 
 For linear stretching and compression, user is asked to input the min pixel and max pixel values. From these two values and provided image’s min pixel and max pixel values, the slope is computed and display to the user. 
 
